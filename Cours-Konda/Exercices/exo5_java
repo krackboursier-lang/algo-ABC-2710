@@ -20,7 +20,7 @@ public class exo4_cor {
 
         clavier.close();
 
-        /***--------  Fin du code  -------------------****/
+        
 
     }
 }       
