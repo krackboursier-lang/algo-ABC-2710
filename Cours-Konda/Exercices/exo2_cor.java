@@ -1,5 +1,5 @@
 package exercices;
-
+import java.util.Scanner;
 public class exo2_cor {
     public static void main(String[] args) {
 
