@@ -17,7 +17,7 @@ public class exo1_cor{
           a = clavier.nextInt(); 
           System.out.println("La valeur de b");
 
-          addition = a+b;
+          addition = a + b; 
 
           System.out.println("a+b= "+addition); 
         clavier.close();
@@ -26,3 +26,4 @@ public class exo1_cor{
     }
 
 }
+

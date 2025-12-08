@@ -1,7 +1,10 @@
 package exercices;
 import java.util.Scanner;
 
-public class exo4_cor {
+public class exo4_cor
+ {
+   public static void main(String[] args) {
+    
    
 
 
@@ -10,11 +13,14 @@ public class exo4_cor {
 
           Scanner clavier = new Scanner(System.in); 
 
-          system.out.println                ("La valeur de a") 
+          System.out.println                ("La valeur de a");
           a = clavier.nextInt(); 
-
-            System.println(a+" est divisible par 2");
-        }else{
+if (a % 2 ==0 ) {
+  System.out.println(a+" est divisible par 2");
+    
+}
+            
+        else{
 
             System.out.println(a+" n'est pas divisible par 2");
         }
@@ -23,7 +29,10 @@ public class exo4_cor {
         clavier.close();
 
         
-    }
+    }  }
+
+
+
 
 
 

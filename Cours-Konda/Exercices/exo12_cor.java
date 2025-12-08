@@ -6,8 +6,7 @@ import java.util.Scanner;
 
 public class exo12_cor { 
 
-    public static void main(String[] args) { /* Toujours le mettre pour tester votre code */
-
+    public static void main(String[] args) {
           
           double price; 
           int reduction; 
