@@ -4,8 +4,8 @@
           /***--------  Début du code  -------------------****/
 
           /* Déclaration des variables */
-          String prenom;
-          int age;
+          String salah;
+          int 45;
 
 
           Scanner clavier = new Scanner(System.in); // Déclaration du scanner Instance de l'Objet Scanner 
