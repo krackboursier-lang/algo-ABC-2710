@@ -2,7 +2,7 @@ package exercices;
 
 import java.util.Scanner; 
 
-public class exo1_corrige {
+public class exo1_cor{
 
     public static void main(String[] args) { 
 
