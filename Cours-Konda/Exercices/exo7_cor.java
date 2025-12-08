@@ -1,6 +1,8 @@
-import java .util.Scanner; /* Importation de la bibliothèque Java Scanner */
-/public class exo7 { /* Nom de la classe */
+package exercices;
 
+import java .util.Scanner; 
+
+public class exo7_cor { 
     public static void main(String[] args) { /* Toujours le mettre pour tester votre code */
 
        String response; //  Déclaration d'une variable a de Type String */
@@ -31,3 +33,5 @@ import java .util.Scanner; /* Importation de la bibliothèque Java Scanner */
         }
 
         clavier.close();
+    }
+}   
