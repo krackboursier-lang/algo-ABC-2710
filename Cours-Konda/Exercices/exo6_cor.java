@@ -1,11 +1,14 @@
 package exercices;
 
-import java.util.Scanner; 
+import java.util.Scanner;
 
-exo6_cor{ /* ATTENTION LA CLASSE DOIT AVOIR LE MÊME NOM QUE LE FICHIER ! */
+public class exo6_cor {
+
+    
+ /* ATTENTION LA CLASSE DOIT AVOIR LE MÊME NOM QUE LE FICHIER ! */
 
 
-    public static void main(String[] args) { /* Toujours le mettre pour tester votre code */
+     public static void main(String[] args)  { /* Toujours le mettre pour tester votre code */
 
           /***--------  Début du code  -------------------****/
 
@@ -17,7 +20,7 @@ exo6_cor{ /* ATTENTION LA CLASSE DOIT AVOIR LE MÊME NOM QUE LE FICHIER ! */
           Scanner clavier = new Scanner(System.in); // Déclaration du scanner Instance de l'Objet Scanner 
 
           System.out.println("Quel est votre prénom ?"); // Affiche un message
-          prenom = clavier.nextString(); 
+          prenom = clavier.next(); 
           System.out.println("Quel est votre âge"); // Affiche un message
           age = clavier.nextInt();
           
