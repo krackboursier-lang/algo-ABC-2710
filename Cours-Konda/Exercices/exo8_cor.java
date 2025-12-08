@@ -5,7 +5,6 @@ public class exo8_cor {
 
     public static void main(String[] args){ 
 
-        
         String firstname,lastname,email,password,confirmpassword; 
         Scanner clavier = new Scanner(System.in); 
 
@@ -32,17 +31,15 @@ public class exo8_cor {
 
             System.out.println("inscription annulée "); 
 
-        }else {         
+}else{
 
-            System.out.println("Merci "+firstname+" "+lastname+", votre inscription a bien été effectuée, vous recevrez un mail de confirmation à l'adresse : "+email); /* Afficher votre instruction */
+            System.out.println("Merci "+firstname+" "+lastname+", votre inscription a bien été effectuée, vous recevrez un mail de confirmation à l'adresse : "+email); 
 
         }
 
-        clavier.close
+        clavier.close();
 
-  }
-
-}   
-
+  }     
+    }       
 
 
