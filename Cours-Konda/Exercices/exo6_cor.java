@@ -1,29 +1,25 @@
-import java.util.Scanner;
-
-public class exo6_cor {
     public static void main(String[] args) { /* Toujours le mettre pour tester votre code */
 
-          
+          /***--------  Début du code  -------------------****/
+
+          /* Déclaration des variables */
           String prenom;
           int age;
 
 
-          Scanner clavier = new Scanner(System.in); 
+          Scanner clavier = new Scanner(System.in); // Déclaration du scanner Instance de l'Objet Scanner 
 
-          System.out.println("Quel est votre prénom ?"); 
-          prenom = clavier.nextLine(); 
-          System.out.println("Quel est votre âge");
-          age = clavier.nextInt();
+          System.out.println("Quel est votre prénom ?"); // Affiche un message
+          prenom = clavier.nextLine(); // On affecte une valeur Scanner de type text à prénom
+          System.out.println("Quel est votre âge");// Affiche un message
+          age = clavier.nextInt();// On affecte une valeur Scanner de type entier à âge
           
-          System.out.println("Bonjour, je m'appelle "+prenom+" j'ai "+age+" ans"); 
+          System.out.println("Bonjour, je m'appelle "+prenom+" j'ai "+age+" ans"); /* Afficher votre instruction , concaténation pour la phrase dynamique */
+
         clavier.close();
 
-       
+        /***--------  Fin du code  -------------------****/
+
     }
 
-}
-
-
-
-    
 }
