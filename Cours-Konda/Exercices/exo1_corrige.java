@@ -1,4 +1,4 @@
-package algo_ABC_2710.Cours_Konda.Exercices
+package Exercices;
 import java.util.Scanner; 
 public class exo1_corrige {
     public static void main(String[] args) {
