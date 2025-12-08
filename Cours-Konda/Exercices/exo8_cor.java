@@ -1,25 +1,48 @@
 package exercices;  
-public class exo8_cor {
-    public static void main(String[] args) {
+import java.util.Scanner; 
+
+public class exo8_cor { 
+
+    public static void main(String[] args){ 
+
         
-        int nombre; // Déclaration d'une variable de type entier
+        String firstname,lastname,email,password,confirmpassword; 
+        Scanner clavier = new Scanner(System.in); 
 
-        System .out .println("Veuillez entrer un nombre :"); // Affichage du message pour demander un nombre
+        System.out.println("Votre prénom ?"); 
+    
+        firstname = clavier.nextLine(); 
 
-        java.util.Scanner clavier = new java.util.Scanner(System.in); // Déclaration du scanner
+        System.out.println("Votre nom ?"); 
 
-        nombre = clavier.nextInt(); // Lecture de l'entier tapé au clavier
+        lastname = clavier.nextLine();  
 
-        if (nombre % 2 == 0) { // Condition pour vérifier si le nombre est pair
+        System.out.println("Votre email ?"); 
 
-            System.out.println("Le nombre " + nombre + " est pair."); // Affichage si le nombre est pair
+        email = clavier.nextLine(); 
 
-        } else {
+        System.out.println("Votre mot de passe ?"); 
 
-            System.out.println("Le nombre " + nombre + " est impair."); // Affichage si le nombre est impair
+        password = clavier.nextLine();  
+
+        System.out.println("Confirmez votre mot de passe ?"); 
+
+        confirmpassword = clavier.nextLine(); 
+        if(!password.equals(confirmpassword))
+
+            System.out.println("inscription annulée "); 
+
+        }else {         
+
+            System.out.println("Merci "+firstname+" "+lastname+", votre inscription a bien été effectuée, vous recevrez un mail de confirmation à l'adresse : "+email); /* Afficher votre instruction */
 
         }
 
-        clavier.close(); // Fermeture du scanner
-    }
+        clavier.close
+
+  }
+
 }   
+
+
+
