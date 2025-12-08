@@ -28,7 +28,7 @@ public class exo5_cor {
 
           equation = a*b/c;
 
-          system.out.println("a x b / c= "+equation); 
+          System.out.println("a x b / c= "+equation); 
 
 
           if(equation<10){ 
