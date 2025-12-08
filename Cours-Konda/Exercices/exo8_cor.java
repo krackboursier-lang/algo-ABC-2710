@@ -31,8 +31,11 @@ public class exo8_cor {
 
             System.out.println("inscription annulée "); 
 
-}else{
+}
 
+    public String lastname;else{
+
+            String firstname;
             System.out.println("Merci "+firstname+" "+lastname+", votre inscription a bien été effectuée, vous recevrez un mail de confirmation à l'adresse : "+email); 
 
         }
@@ -43,3 +46,4 @@ public class exo8_cor {
     }       
 
 
+/*
