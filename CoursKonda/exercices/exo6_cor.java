@@ -1,3 +1,6 @@
+package exercices;
+
+
 import java.util.Scanner;
 
 public class exo6_cor {

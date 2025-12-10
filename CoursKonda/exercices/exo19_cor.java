@@ -1,3 +1,5 @@
+package exercices;
+
 import java.util.Scanner; 
 
 public class exo19_cor { 

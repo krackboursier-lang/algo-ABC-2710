@@ -1,3 +1,5 @@
+package exercices;
+
 import java.util.Scanner; 
 
 public class exo17_cor { 
@@ -10,7 +12,7 @@ public class exo17_cor {
           double priceLiterGazole = 1.563;
           double priceLiter95 = 1.702;
           double priceLiter98 = 1.777;
-          double consoMoy;
+          double consoMoy = 0;
           double priceLiter=0.0;
 
           Scanner clavier = new Scanner(System.in);
@@ -41,7 +43,6 @@ public class exo17_cor {
 
             default:
                 System.out.println("Carburant inexistant"); 
-                return;
               
           }
 
@@ -56,6 +57,8 @@ public class exo17_cor {
             cost /= 100;    
 
             System.out.println("Pour "+distance+" km, vous allez dépenser en moyenne "+cost+" euros"); /* Afficher votre instruction */
+
+            clavier.close();
 
 
     }
