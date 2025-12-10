@@ -1,4 +1,4 @@
-package exercices;
+
 import java.util.Scanner; 
    
 public class exo13_cor { 
@@ -20,7 +20,11 @@ public class exo13_cor {
 
           System.out.println(cm+" centimêtre en mêtre vaut :"+m);
 
-        clavier.close ();
+        clavier.close;
+
+    }
+  }
+
 
 
 

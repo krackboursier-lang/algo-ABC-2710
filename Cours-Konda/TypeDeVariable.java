@@ -1,3 +1,4 @@
+
 public class TypeDeVariable {
 
         public static void main(String[] args) {
