@@ -1,5 +1,5 @@
 
-package exercices;
+package CoursKonda. exercices;
 import java.util.Scanner; 
 
     
