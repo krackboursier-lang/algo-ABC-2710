@@ -1,14 +1,14 @@
 
 import java.util.Scanner;
 
-/*  Voici comment marche le switch */
+
 
 public class SwitchCase {
 
     public static void main(String[] args) {
 
 
-         Scanner clavier = new Scanner(System.in); //* Initialsiation du scanner */
+         Scanner clavier = new Scanner(System.in); 
 
         int age;
 
@@ -16,8 +16,8 @@ public class SwitchCase {
 
         age = clavier.nextInt();
 
-        switch(age){ /* On initialise le switch avec la variable age , on va tester si age à les valeurs suivantes */
-            /* En fonction des valeurs le message change */
+        switch(age){ 
+        
             case 2:
                 System.out.println("Vous êtes un bébé");
                 break;

@@ -13,11 +13,11 @@ public class exo17_cor {
           double consoMoy;
           double priceLiter=0.0;
 
-          Scanner Clavier = new Scanner(System.in);
+          Scanner clavier = new Scanner(System.in);
  
           System.out.println("Quel est le type de votre carburant ?"); 
 
-          carburant = Clavier.nextInt(); 
+          carburant = clavier.nextInt(); 
 
           switch(carburant){
 
@@ -47,7 +47,7 @@ public class exo17_cor {
 
           System.out.println("Quel est la distance à parcourir (en km) ?"); 
 
-          distance = Clavier.nextInt(); 
+          distance = clavier.nextInt(); 
 
             cost = ((consoMoy/100.0)*priceLiter)*distance*priceLiter;
 
