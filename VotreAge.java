@@ -1,13 +1,9 @@
-
-package entrainement;
-
-
 import java.util.Scanner;
 
 /*  Voici comment marche le switch */
 
 public class VotreAge {
-
+ 
     public static void main(String[] args) {
 
 
@@ -69,3 +65,4 @@ public class VotreAge {
     }
     
 }
+

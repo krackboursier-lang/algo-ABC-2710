@@ -1,17 +1,9 @@
-
-
 import java.util.Scanner; 
-
-    
 
 public class exo3_cor { 
 
     public static void main(String[] args) { 
-
-          
-
-
-          
+    
           int a;
           int b;
           int addition;

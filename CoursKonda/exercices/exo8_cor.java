@@ -1,6 +1,4 @@
-  
 import java.util.Scanner; 
-
 public class exo8_cor { 
 
     public static void main(String[] args){ 

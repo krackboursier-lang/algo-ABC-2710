@@ -1,12 +1,6 @@
-
-
 import java.util.Scanner;
 
 public class exo6_cor {
-
-    
-
-
      public static void main(String[] args)  { 
           
           String prenom;
