@@ -1,3 +1,5 @@
+
+
 /* EXO3 : : A l'aide de Scanner et Print, me faire afficher le résultat d'une soustraction (types entiers) et vérifier si elle est inférieur à 0    
  * 
  * 
@@ -16,6 +18,7 @@
  * 
  * 
  */
+package exercices;
 import java.util.Scanner;
 import java.io.PrintStream;
 public class exo2 {
