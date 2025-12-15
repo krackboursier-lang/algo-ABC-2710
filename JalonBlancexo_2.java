@@ -11,8 +11,7 @@ public class JalonBlancexo_2 {
             int quantite = scanner.nextInt();
 
             if (quantite > reste) {
-                quantite = reste; // On ne peut pas boire plus que ce qu'il reste
-            }
+                quantite = reste; 
 
             reste -= quantite;
             System.out.printf("Vous avez bu %dcl. ", quantite);
@@ -24,6 +23,7 @@ public class JalonBlancexo_2 {
             }
         }
     }
+}
 }
 
 
