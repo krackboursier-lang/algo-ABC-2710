@@ -1,6 +1,4 @@
-import java.util.*;
-
-    import java.util.Scanner;
+import java.util.Scanner;
 
 public class Exo1_2{
     public static void main(String[] args) {
