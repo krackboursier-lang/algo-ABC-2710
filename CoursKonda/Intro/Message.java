@@ -1,4 +1,4 @@
-package Entrainement;
+
 
 import java.util.Scanner;
 
